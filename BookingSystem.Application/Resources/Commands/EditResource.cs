@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
 using BookingSystem.Application.Core;
 using BookingSystem.Application.Resources.DTOs;
-using BookingSystem.Domain.Resources;
 using BookingSystem.EntityFrameworkCore;
 using MediatR;
-using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace BookingSystem.Application.Resources.Commands;
 

@@ -1,6 +1,4 @@
-﻿using BookingSystem.Domain.Shared;
-
-namespace BookingSystem.Application.Resources.DTOs;
+﻿namespace BookingSystem.Application.Resources.DTOs;
 
 public class UpdateResourceInputDto : CreateResourceInputDto
 {

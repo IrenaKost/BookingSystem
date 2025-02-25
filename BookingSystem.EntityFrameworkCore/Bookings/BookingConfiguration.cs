@@ -1,5 +1,4 @@
 ﻿using BookingSystem.Domain.Bookings;
-using BookingSystem.Domain.Resources;
 using BookingSystem.Domain.Shared;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

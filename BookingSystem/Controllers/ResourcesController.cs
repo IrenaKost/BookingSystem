@@ -44,9 +44,4 @@ public class ResourcesController : BaseApiController
         return HandleResult(await Mediator.Send(new DeleteResource.Command { Id = id }));
     }
 
-    //[HttpPost("{id}/book")]
-    //public async Task<ActionResult> Book(BookResourceInputDto input)
-    //{
-    //    return HandleResult(await Mediator.Send(new BookResource.Command { BookResourceDto = input }));
-    //}
 }

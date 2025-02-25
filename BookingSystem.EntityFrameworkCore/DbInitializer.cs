@@ -1,5 +1,4 @@
-﻿using BookingSystem.Domain.Bookings;
-using BookingSystem.Domain.Resources;
+﻿using BookingSystem.Domain.Resources;
 
 namespace BookingSystem.EntityFrameworkCore;
 

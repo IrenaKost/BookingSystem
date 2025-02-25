@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace BookingSystem.Application.Resources.DTOs;
+﻿namespace BookingSystem.Application.Resources.DTOs;
 
 public class CreateResourceInputDto
 {

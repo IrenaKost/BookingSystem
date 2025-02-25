@@ -15,7 +15,7 @@ public class MappingProfiles : Profile
         CreateMap<UpdateResourceInputDto, Resource>();
 
         CreateMap<Booking, BookingDto>()
-            .ForMember(dest => dest.Resource, opt => opt.MapFrom(src => src.Resource)); // try remove this line
+            .ForMember(dest => dest.Resource, opt => opt.MapFrom(src => src.Resource));
         CreateMap<CreateBookingInputDto, Booking>();
         CreateMap<UpdateBookingInputDto, Booking>();
     }

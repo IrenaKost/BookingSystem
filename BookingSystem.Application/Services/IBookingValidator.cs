@@ -6,6 +6,5 @@ namespace BookingSystem.Application.Services;
 
 public interface IBookingValidator
 {
-    // IsResourceAvailable
-    Task<bool> IsBookingValid(Resource resource, BookResourceInputDto requestedResource);
+    Task<bool> IsResourceAvailable(Resource resource, CreateBookingInputDto requestedBooking);
 }

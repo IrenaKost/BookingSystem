@@ -22,7 +22,6 @@ public class DeleteBooking
 
             context.Remove(booking);
 
-            //await context.SaveChangesAsync(cancellationToken);
             var result = await context.SaveChangesAsync(cancellationToken) > 0;
 
             if (!result) return Result<Unit>.Failure("Failed to delete booking", 400);

@@ -3,13 +3,7 @@ using BookingSystem.Application.Core;
 using BookingSystem.Application.Resources.DTOs;
 using BookingSystem.Domain.Resources;
 using BookingSystem.EntityFrameworkCore;
-using FluentValidation;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookingSystem.Application.Resources.Commands;
 
