@@ -4,3 +4,10 @@ export interface Resource {
     quantity: number
     bookings: unknown[]
   }
+
+  export interface CreateBookingInputDto {
+    resourceId: number;
+    dateFrom: string;
+    dateTo: string;
+    bookedQuantity: number;
+  }
